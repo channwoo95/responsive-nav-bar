@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 
-
-
 body{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -64,14 +62,13 @@ a{
 
 }
 
-
- .navbar__toggleBtn {
-        display:none;
-        font-size:24px;
+.navbar__toggleBtn {
+    display:none;
+    ont-size:24px;
         
-        position:absolute;
-        right: 32px;
-        color:	#ff9868;
+    position:absolute;
+    right: 32px;
+    color:#ff9868;
     }
 
 
@@ -86,24 +83,18 @@ a{
         padding: 8px 24px;
     }
 
-    
-
+  
     .navbar__menu {
         display:none;
         flex-direction: column;
         align-items: center;
-        width:100%;
-        
-        
+        width:100%;    
     }
 
     .navbar__menu li {
         width:100%;
-        text-align:center;
-        
+        text-align:center; 
     }
-
-
 
     .navbar__icons {
         display:none;
@@ -116,7 +107,6 @@ a{
         display:block;
     }
    
-
     .navbar__menu.active,
     .navbar__icons.active {
         display:flex;
